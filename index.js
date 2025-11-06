@@ -32,6 +32,27 @@ function calculateAverageReadingTime(readbooks) {
 
 const averageTime = calculateAverageReadingTime(readbooks);
 console.log(`The average time to read a book is: ${averageTime} days`);
+
+
+
+
+const percentRead = (readbooks.length / filteredData.length) * 100;
+console.log(`Percentage of books read: ${percentRead.toFixed(2)}%`);
+
+
+for (let i = 0; i < filteredData.length; i++) {
+  console.log(filteredData[i].category);
+}
+
+if()
+
+
+console.log(ata.category)
+const favGenre= (filteredData.category) 
+console.log(favGenre);
+
+
+
 // fetch('./rawBooks.json')
 //     .then((response) => response.json())
 //     .then((json) => console.log(json));
