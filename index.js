@@ -44,12 +44,18 @@ for (let i = 0; i < filteredData.length; i++) {
   console.log(filteredData[i].category);
 }
 
-if()
 
 
-console.log(ata.category)
-const favGenre= (filteredData.category) 
-console.log(favGenre);
+
+console.log(data.category)
+const favCategory= (filteredData.category) 
+console.log(favCategory);
+
+const uniqueSet = new Set(favCategory);
+const uniqueArray = [...uniqueSet];
+uniqueArray.forEach(category => console.log(category));
+
+
 
 
 
